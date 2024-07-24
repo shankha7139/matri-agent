@@ -45,9 +45,9 @@ function AgentDashboard() {
 
   const dashboardItems = [
     { icon: FiUsers, title: "Total Clients", value: users.length.toString() },
-    { icon: FiDollarSign, title: "Revenue", value: "$12,456" },
-    { icon: FiActivity, title: "Active Projects", value: "7" },
-    { icon: FiBriefcase, title: "Completed Jobs", value: "32" },
+    { icon: FiDollarSign, title: "Revenue", value: "$1000" },
+    { icon: FiActivity, title: "Active members", value: "7" },
+    { icon: FiBriefcase, title: "engaged", value: "3" },
   ];
 
   return (
